@@ -13,8 +13,6 @@ namespace GenericParameters
             Employee<string> strEmployee = new Employee<string>();
             Employee<int> intEmployee = new Employee<int>();
 
-            //List<string> strList = new List<string>();
-
             strEmployee.Things = new List<string>() { "Hello", "Goodbye", "Day", "Night" };
 
             intEmployee.Things = new List<int>() { 10, 25, 30, 45 };
@@ -29,10 +27,6 @@ namespace GenericParameters
                 Console.WriteLine(num);
             }
 
-            //for (int i = 0; i < strEmployee.Things.Count; i++)
-            //{
-            //    Console.WriteLine();
-            //}
             Console.ReadLine();
         }
     }
